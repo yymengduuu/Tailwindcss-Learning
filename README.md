@@ -11,6 +11,11 @@ npm install -D tailwindcss@3 postcss autoprefixer
 ```
 npx tailwindcss init -p
 ```
+
+```
+npm install -D prettier prettier-plugin-tailwindcss --legacy-peer-deps
+```
+
 ---
 
 **tailwind.config.js**
