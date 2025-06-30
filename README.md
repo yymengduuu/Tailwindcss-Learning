@@ -72,6 +72,7 @@ bg-red-100  bg-green-200  bg-blue-300
 border-black  border-white  border-gray-300  
 border-red-400  border-green-400  border-blue-400
 ```
+---
 
 ### 📏Spacing
 
@@ -84,6 +85,7 @@ p-0    p-2    p-4    px-4    py-2    pl-6    pr-8
 ```
 m-0    m-2    m-4    mx-4    my-2    ml-6    mr-8
 ```
+---
 
 ### 🔲 Borders
 
@@ -103,3 +105,25 @@ rounded-lg   rounded-xl   rounded-full
 ```
 border-solid  border-dashed  border-dotted  border-none
 ```
+---
+
+### 📐 Display & Layout
+
+#### Display
+```
+block     inline-block     inline  
+flex      inline-flex      grid     hidden
+```
+
+#### Flexbox Helpers
+```
+flex-row      flex-col       flex-wrap  
+items-center  justify-between  gap-4
+```
+
+#### Grid Helpers
+```
+grid-cols-1   grid-cols-2   grid-cols-3  
+col-span-1    col-span-2    gap-4
+```
+---
