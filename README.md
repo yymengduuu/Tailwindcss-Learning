@@ -127,3 +127,29 @@ grid-cols-1   grid-cols-2   grid-cols-3
 col-span-1    col-span-2    gap-4
 ```
 ---
+
+### 📱Responsive Design & Breakpoints
+
+**🧠 What is a Breakpoint?**
+A **breakpoint** in responsive design defines the screen width at which the layout or style should adapt. It allows your design to respond to different devices like mobile phones, tablets, and desktops.
+---
+
+**📏 Default Tailwind Breakpoints**
+
+Tailwind CSS uses **min-width** breakpoints by default:
+
+| Breakpoint | Min Width | Common Devices        |
+|------------|-----------|------------------------|
+| `sm`       | 640px     | Small screens (phones) |
+| `md`       | 768px     | Medium screens (tablets) |
+| `lg`       | 1024px    | Large screens (laptops) |
+| `xl`       | 1280px    | Extra large screens (desktops) |
+| `2xl`      | 1536px    | Ultra-wide screens (TVs, large monitors) |
+
+
+```
+<p class="text-sm md:text-lg lg:text-xl">
+  Responsive font size based on screen width
+</p>
+```
+---
