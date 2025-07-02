@@ -135,7 +135,7 @@ col-span-1    col-span-2    gap-4
 - A breakpoint in responsive design defines the screen width at which the layout or style should adapt. It allows your design to respond to different devices like mobile phones, tablets, and desktops.
 
 
-- 📏 Default Tailwind Breakpoints
+- Default Tailwind Breakpoints
 
 Tailwind CSS uses **min-width** breakpoints by default:
 
