@@ -154,3 +154,95 @@ Tailwind CSS uses **min-width** breakpoints by default:
 </p>
 ```
 ---
+
+### 🎯Flexbox
+
+#### Basic Flexbox Classes
+
+| Class         | Description                   |
+|---------------|-------------------------------|
+| `flex`        | Apply `display: flex`         |
+| `inline-flex` | Apply `display: inline-flex`  |
+
+---
+
+#### Flex Direction
+
+| Class           | Direction          |
+|------------------|-------------------|
+| `flex-row`       | Horizontal (default) |
+| `flex-row-reverse` | Reverse horizontal |
+| `flex-col`       | Vertical            |
+| `flex-col-reverse` | Reverse vertical   |
+
+---
+
+#### Justify Content (Main Axis)
+
+| Class                  | Description                  |
+|------------------------|------------------------------|
+| `justify-start`        | Align items to start         |
+| `justify-center`       | Center items                 |
+| `justify-end`          | Align items to end           |
+| `justify-between`      | Space between items          |
+| `justify-around`       | Space around items           |
+| `justify-evenly`       | Even spacing between items   |
+
+---
+
+#### Align Items (Cross Axis)
+
+| Class           | Description                  |
+|------------------|------------------------------|
+| `items-start`     | Align to start              |
+| `items-center`    | Align to center             |
+| `items-end`       | Align to end                |
+| `items-stretch`   | Stretch (default)           |
+| `items-baseline`  | Align to text baseline      |
+
+---
+
+#### Align Self (Individual Item)
+
+| Class           | Description                  |
+|------------------|------------------------------|
+| `self-start`     | Align self to start          |
+| `self-center`    | Align self to center         |
+| `self-end`       | Align self to end            |
+| `self-stretch`   | Stretch (default)            |
+| `self-auto`      | Follow container setting     |
+
+---
+
+#### Flex Wrap
+
+| Class           | Description                  |
+|------------------|------------------------------|
+| `flex-wrap`      | Enable wrapping              |
+| `flex-nowrap`    | No wrap                      |
+| `flex-wrap-reverse` | Wrap in reverse direction  |
+
+---
+
+#### Flex Grow / Shrink / Basis
+
+| Class             | Description                     |
+|-------------------|---------------------------------|
+| `flex-1`          | Grow to fill space              |
+| `flex-auto`       | Auto sizing                    |
+| `flex-initial`    | Initial size                   |
+| `flex-none`       | Fixed size (no grow/shrink)    |
+| `basis-1/2`       | 50% base size                  |
+
+---
+
+#### Gap (Spacing Between Items)
+
+| Class       | Description                          |
+|-------------|--------------------------------------|
+| `gap-2`     | 0.5rem space between items           |
+| `gap-x-4`   | Horizontal gap only                  |
+| `gap-y-8`   | Vertical gap only                    |
+
+---
+
