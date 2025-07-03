@@ -246,3 +246,32 @@ Tailwind CSS uses **min-width** breakpoints by default:
 
 ---
 
+# 🧩 Tailwind CSS Grid Cheatsheet
+
+CSS Grid provides powerful 2D layout control. Tailwind makes it easy with utility classes.
+
+---
+
+## 🔧 Basic Grid Setup
+
+| Class     | Description           |
+|-----------|-----------------------|
+| `grid`    | Set `display: grid`   |
+| `inline-grid` | Set `display: inline-grid` |
+
+---
+
+### 🧱 Grid Columns
+
+| Class           | Description                        |
+|------------------|------------------------------------|
+| `grid-cols-1`     | 1 column                          |
+| `grid-cols-2`     | 2 columns                         |
+| `grid-cols-3` ... `grid-cols-12` | Up to 12 columns     |
+| `grid-cols-none`  | No columns                        |
+
+```
+<div class="grid grid-cols-3 gap-4">
+  <div>1</div><div>2</div><div>3</div>
+</div>
+```
