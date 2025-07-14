@@ -148,6 +148,7 @@ className="flex flex-col items-center gap-4"
 ```
 className="flex justify-center items-center h-screen"
 ```
+- 水平对齐用 justify, 垂直对齐用 items
 
 #### Grid Helpers
 ```
