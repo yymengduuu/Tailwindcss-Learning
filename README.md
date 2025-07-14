@@ -120,22 +120,22 @@ flex      inline-flex      grid     hidden
 flex-row      flex-col       flex-wrap  
 items-center  justify-between  gap-4
 ```
-元素一行排列
+- 元素一行排列
 ```
 className="flex space-x-4"
 ```
-元素一列排列
+- 元素一列排列
 ```
 className="flex flex-col items-center gap-4"
 ```
-一个元素自适应剩余空间
+- 一个元素自适应剩余空间
 ```
 <div className="flex">
   <div className="w-1/3">固定</div>
   <div className="grow">剩下的都给我</div>
 </div>
 ```
-子项自动换行
+- 子项自动换行
 ```
 <div className="flex flex-wrap gap-2">
   <span className="bg-orange-200 px-2 py-1">Tag 1</span>
@@ -144,7 +144,7 @@ className="flex flex-col items-center gap-4"
   ...
 </div>
 ```
-控制对齐方式
+- 控制对齐方式
 ```
 className="flex justify-center items-center h-screen"
 ```
